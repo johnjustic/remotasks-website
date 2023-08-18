@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(155, 99, 1, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    float: left; /* Make cards float on the page */
+  transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .card-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .card-link:hover {
+    background-color: orange;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar-logo {
+    float: left;
+    padding: 8px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 253, 206); /* Set background color to black */
+    color: #fff; /* Set text color to white */
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow for pop-out effect */
+  }
+  .header-banner {
+    background-color: rgb(129, 182, 69);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .header-banner a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  /* ... (Previous styles) ... */
+
+/* Styles for the card layout */
+.card {
+    width: 300px;
+    background-color: rgb(238, 208, 162); /* Set the background color to orange */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    color: black;
+  }
+  .card:hover {
+    background-color: #dafc7c; /* Change to green on hover */
+    box-shadow: 0 0 100px rgba(207, 76, 29, 0.6);
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .card-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card-link:hover {
+    background-color: orange;
+  }
+  
+  /* ... (Navbar styles) ... */
+  .banner-card {
+    background-color: rgb(153, 138, 103);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+  }
+
+  .banner-card a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .banner-card {
+    background-color: #cbf878;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+  }
+
+  .banner-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .banner-description {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .banner-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .banner-link:hover {
+    background-color: #4CAF50; /* Green color */
+    box-shadow: 0 0 20px #4CAF50; /* Add a glowing effect */
+  }
+  .banner-card {
+    background-color: #f4cc56;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: transform 0.3s; /* Add transition for the pop-up effect */
+  }
+
+  .banner-card:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+  }
+
+  .banner-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .banner-description {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .banner-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ecb207;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .banner-link:hover {
+    background-color: #4CAF50;
+    box-shadow: 0 0 20px #4CAF50;
+  }
+  .navbar {
+    background-color: rgb(90, 100, 97);
+    overflow: hidden;
+    transition: margin-top 0.3s; /* Add transition for the pop-up effect */
+    margin-top: -60px; /* Initially, move the navbar off-screen */
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for pop-out effect */
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+
+  .navbar a:hover {
+    background-color: #78d635;
+    box-shadow: 0 0 10px rgba(148, 212, 150, 0.3); /* Add a pop-out box shadow on hover */
+  }
+
+  .navbar-logo {
+    float: left;
+    padding: 8px;
+  }
